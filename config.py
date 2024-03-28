@@ -17,7 +17,7 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/hamza49490/konusanlaar-asistan",
 )
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/aaskkoleji")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/askkoleji")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/konnusanlar")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 STRING1 = getenv("STRING_SESSION", "BAARbEZLpn8UffUPzx73QNiMu_gxzWwOUBnWuvyCCTaLMcom72mRtsC6qdopCKfOlEkXjjo1_8zM4GjTRWYj30d-2K99esuYBHiqiJRtugfjaPIblfnTHq3MNr6vQWTKEwEIpv-l7cuUKPE9YrMbBFDXaHZNcI-4b5Bzxto4eztemiKlarmrE4edtP_eD-RfRPMQaHGzQy8Lu23VkrFvxidx61GH4LeQI4_iz8BhOYnHpKKdthOvs-ZqhCIS4NM8GY4HFPD3QZep5mdA0pn7B0LeGZ_rcuU5B3KALnVVVnb8UpCT-KO4fngex0XqV8ZrS4OD-ym4lAAtIQtUNWs8kIp3AAAAAXYax0YA")
@@ -54,7 +54,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/e03cc83b0c9219c804c9e.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/5933c1352e77e43c7af52.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
