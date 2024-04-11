@@ -8,7 +8,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", "29462790"))
 API_HASH = getenv("API_HASH", "1fb6a2326a52026dfdb1352f9d065856")
-BOT_TOKEN = getenv("BOT_TOKEN", "7047811297:AAGMWaDRQPD5MTppkF5nu8XZ9VoYxmse3Yo")
+BOT_TOKEN = getenv("BOT_TOKEN", "6508386922:AAHtG3YDY1-NUhp71Rl8pgQCaAmkCYZjlvk")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kingbrukh:kingkhan@kingbruh.ra3pjgm.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001805137487"))
