@@ -26,7 +26,18 @@ STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
-
+@client.on(events.NewMessage(pattern="^/start$"))
+async def start(event):
+  await event.reply("**TaggerBot**\n ile Grubunuzdakı Nerdeyse Tüm Üyelere Etiket Ata bilirim \nKomutlar için =======> /help yazın**",
+                    buttons=(
+                   
+		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/konusanlaretiketbot?startgroup=a')],
+                      [Button.url('Support🛠', 'https://t.me/konnusanlar')],
+                      [Button.url('Resmi Kanal📣', 'https://t.me/askkolrji')],
+		      [Button.url('Developer👨🏻‍💻', 'https://t.me/r0r0xx')],
+                    ),
+                    link_preview=False
+)
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
