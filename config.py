@@ -6,8 +6,8 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "29462790"))
-API_HASH = getenv("API_HASH", "1fb6a2326a52026dfdb1352f9d065856")
+API_ID = int(getenv("API_ID", "29869097"))
+API_HASH = getenv("API_HASH", "b011037acfaf24f5dd4b5dda104c55fe")
 BOT_TOKEN = getenv("BOT_TOKEN", "6508386922:AAGj1O2d1DZg3ZqgbCMUN3SSZ5s_ZrvdhSk")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kingbrukh:kingkhan@kingbruh.ra3pjgm.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
