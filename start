@@ -1,9 +1,5 @@
-import subprocess
+#!/bin/bash
 
-import os
-GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
-
-curl_command = f'curl -H "Authorization: token {GITHUB_TOKEN}" https://api.github.com/Hamza49490'
-subprocess.run(curl_command, shell=True)
+curl -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/users/Hamza49490
 
 python3 -m AnonXMusic
