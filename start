@@ -1,5 +1,1 @@
-#!/bin/bash
-
-curl -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/users/Hamza49490
-
 python3 -m AnonXMusic
