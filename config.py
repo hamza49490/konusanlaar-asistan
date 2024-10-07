@@ -12,7 +12,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "6508386922:AAG5KdW7Cd5B_KwjjctUgWlgf8LKKpJpT58"
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kingbrukh:kingkhan@kingbruh.ra3pjgm.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002028213552"))
-OWNER_ID = int(getenv("OWNER_ID", 7442833834))
+OWNER_ID = int(getenv("OWNER_ID", 7357366704))
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/hamza49490/konusanlaar-asistan",
